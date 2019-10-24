@@ -1,0 +1,15 @@
+Today we are looking at more advanced topics in github
+	- Review of pull method
+	- Merge conflicts
+	- Branches
+	- Oh sh*t git
+
+README.md files:
+	- Markdown files
+	- will be rendered below all of the files in a repository
+	- should be description of project
+		- installation instructions
+		- use cases
+		- dependancies
+	- Example file in repository
+
