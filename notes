@@ -1,0 +1,27 @@
+Today we are looking at more advanced topics in github
+	- Review of pull method
+	- Merge conflicts
+	- Branches
+	- Oh sh*t git
+
+README.md files:
+	- Markdown files
+	- will be rendered below all of the files in a repository
+	- should be description of project
+		- installation instructions
+		- use cases
+		- dependancies
+	- Example file in repository
+
+Pull:
+	- When you move changes from remote to local you have to pull them
+	- Command is 'git pull'
+	- You should never have to force pull
+	- Pull THEN push, never the other way around. If you do, then it will create a merge conflict
+
+Merge conflicts:
+	- Merge conflicts happen when
+	- Text is inserted into file where merge conflic exists
+		- From head to ====== it tells the user what it looks like on the local commit
+		- From ===== to >>>>> it tells the user that it looks like on the remote commit
+		- Jumble of numbers is unique hash that refereneces the location in the remote 
