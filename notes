@@ -35,3 +35,9 @@ Branches:
 	- Run git checkout <branch> to switch to a specific branch
 	- To push a branch to the repo use: git push -u orgin(remote) dev(branchname)  (same as adding a remote repo)
 	- To merge a branc h back into master, checkout master, then run: git merge <branchname>
+
+Oh Sh*t Git:
+	- git reflog: shows you everything you've done in git
+	- git reset --hard: hard reset. Jumps you back one commit and starts you there
+	- git clean -df: clears up all files that are not under verion control that have been added to the repo
+
