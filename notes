@@ -24,4 +24,11 @@ Merge conflicts:
 	- Text is inserted into file where merge conflic exists
 		- From head to ====== it tells the user what it looks like on the local commit
 		- From ===== to >>>>> it tells the user that it looks like on the remote commit
-		- Jumble of numbers is unique hash that refereneces the location in the remote 
+		- Jumble of numbers is unique hash that refereneces the location in the remote
+	- You have to decide which one you want to keep then commit and push the changes to resolve the merge conflicts
+Branches:
+	- master is the default branch for a Github repo
+	- A branch is an alternate timeline of commits to master where you can safely develop new features, fix bugs, try new things,
+	  without fear of breaking a working master code
+		- For collabrative projects each person can be editing the master document and make their own changes (leads to a lot of merge conflicts when merging back to master)
+
