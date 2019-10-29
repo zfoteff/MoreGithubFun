@@ -31,4 +31,6 @@ Branches:
 	- A branch is an alternate timeline of commits to master where you can safely develop new features, fix bugs, try new things,
 	  without fear of breaking a working master code
 		- For collabrative projects each person can be editing the master document and make their own changes (leads to a lot of merge conflicts when merging back to master)
+	- Run git branch to see all branches on a repo
+	- Run git checkout <branch> to switch to a specific branch
 
